@@ -1,0 +1,245 @@
+/**
+ * colors
+ */
+ @filler:#EFEFEF;
+ @header-bg:#B80000;
+ /*
+ @indochino-bright:#29abe2;
+ @indochino-dark:#808080;
+ @indochino-bg:#DFDFDF;
+ @bv-bright:#149e7d;
+ @bv-dark:#003d4c;
+ @bv-bg:#eae9e1;
+ @watrhub-bright:#0897bf;
+ @watrhub-dark:#023362;
+ @watrhub-bg:#e7f3ff;
+ */
+
+ @indochino-bright:#EFEFEF;
+ @indochino-dark:#EFEFEF;
+ @indochino-bg:#EFEFEF;
+ @bv-bright:#EFEFEF;
+ @bv-dark:#EFEFEF;
+ @bv-bg:#EFEFEF;
+ @watrhub-bright:#EFEFEF;
+ @watrhub-dark:#EFEFEF;
+ @watrhub-bg:#EFEFEF;
+
+/**
+ * mixins
+ */
+.title {
+    font-weight:600;
+    line-height:1;
+}
+
+.subheading {
+    line-height:1.5;
+    font-weight:600;
+    text-transform:uppercase;
+}
+
+.nostyle {
+    list-style:none;
+}
+
+/**
+ * layout
+ */
+body {
+    font-family:'Josefin Sans', sans-serif;
+    font-weight:600;
+}
+
+/**
+ * header
+ */
+.site-header {
+    background-color:@header-bg;
+    background:url(../assets/radial-grad-white.png) no-repeat 9% center;
+    background-color:#b80000;
+    background-size:40% 100%;
+    color:#000000;
+}
+
+.site-header-content {
+    padding:30px 0;
+}
+
+.site-title {
+    .title;
+    margin-top:10px;
+    font-size:50px;
+    font-variant:small-caps;
+    text-shadow:1px 1px 1px #6F6F6F;
+}
+
+.site-subheading {
+    .subheading;
+    font-size:18px;
+    margin:5px 0;
+}
+
+.site-desc {
+    .subheading;
+    font-size:14px;
+    font-variant:small-caps;
+}
+
+/* social icons */
+.social {
+    width:150px;
+}
+
+.social > ul > li {
+    background-color:#BF5858;
+    display:inline-block;
+    height:50px;
+    margin:10px 8px 0 0;
+    width:50px;
+}
+
+.social > ul > li > a {
+    display:block;
+    height:100%;
+    width:100%;
+    text-indent:-9999px;
+}
+
+.social-github {
+    background:url(../assets/icon-github.png) no-repeat center;
+}
+
+.social-twitter {
+    background:url(../assets/icon-twitter.png) no-repeat center;
+}
+
+.social-linkedin {
+    background:url(../assets/icon-linkedin.png) no-repeat center;
+}
+
+.social-email {
+    background:url(../assets/icon-email.png) no-repeat center;
+}
+
+/* site nav */
+.site-nav {
+    background-color:#DFDFDF;
+    padding:20px 0;
+}
+
+.site-nav > ul > li {
+    display:inline-block;
+    text-align:center;
+    text-transform:uppercase;
+    width:49.5%;
+}
+
+/**
+ * body styles
+ */
+ .body-content {
+    padding:20px 0;
+}
+
+/**
+ * timeline
+ */
+.timeline-content {
+    display:block;
+    position:relative;
+    text-align:center;
+    z-index:2;
+    padding:20px;
+    margin:82px auto;
+    opacity:0.95;
+    width:700px;
+}
+
+.timeline-content:before {
+    .timeline-divider;
+    height:70px;
+    margin-top:-70px;
+    content:" ";
+}
+
+.timeline-content:after {
+    .timeline-divider;
+    top:auto;
+    bottom:0;
+    height:10px;
+    margin-bottom:-10px;
+    content:" ";
+}
+
+.timeline-divider {
+    position:absolute;
+    right:0;
+    left:0;
+    top:0;
+    margin:0 auto;
+    height:100%;
+    width:7px;
+    background-color:@filler;
+    z-index:-1;
+}
+
+.timeline-date-left {
+    float:left;
+    width:48%;
+    text-align:right;
+}
+
+.timeline-date-right {
+    float:right;
+    width:48%;
+    text-align:left;
+}
+
+/**
+ * workexp
+ */
+.workexp-indochino.timeline-content {
+    background-color:lighten(@indochino-bright, 0%);
+    .timeline-divider { background-color:mix(@indochino-dark, @indochino-bright, 30%); }
+    &:before, &:after { background-color:@indochino-dark; }
+}
+
+.workexp-bv.timeline-content {
+    background-color:lighten(@bv-bright, 8%);
+    .timeline-divider { background-color:mix(@bv-dark, @bv-bright, 1%); }
+    &:before, &:after { background-color:@bv-dark; }
+}
+
+.workexp-watrhub.timeline-content {
+    background-color:lighten(@watrhub-bright, 3%);
+    .timeline-divider { background-color:mix(@watrhub-dark, @watrhub-bright, 10%); }
+    &:before, &:after { background-color:@watrhub-dark; }
+}
+
+.workexp-date {
+    margin-top:-60px;
+    font-size:20px;
+    font-weight:700;
+    text-transform:uppercase;
+    line-height:25px;
+}
+
+.workexp-company-name {
+    .title;
+    text-transform:uppercase;
+    font-size:35px;
+    font-weight:800;
+    text-shadow:1px 1px 1px #EFEFEF;
+}
+
+.workexp-job-title {
+    font-size:20px;
+    line-height:2;
+}
+
+.workexp-location {
+    font-size:16px;
+    line-height:2;
+    margin-bottom:10px;
+}

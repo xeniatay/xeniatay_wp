@@ -1,3 +1,84 @@
+    <header class='site-header'>
+        <div class='site-header-content container'>
+            <div class='pull-left'>
+                <h1 class='site-title'>Xenia Tay</h1>
+                <h2 class='site-subheading'>Design and Development</h2>
+                <h3 class='site-desc'>Computer Science, University of Waterloo</h3>
+            </div>
+            <div class='social pull-right'>
+                <ul class='social-links'>
+                    <li>
+                        <a href='http://www.github.com/xeniatay' title='Github' class='social-github'>Github</a>
+                    </li>
+                    <li>
+                        <a href='http://www.twitter.com/xeniatay' title='Twitter' class='social-twitter'>Twitter</a>
+                    </li>
+                    <li>
+                        <a href='http://www.linkedin.com/xeniatay' title='LinkedIn' class='social-linkedin'>LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href='' title='Github' class='social-email'>Email</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <nav class='site-nav'>
+        <ul class='nostyle container'>
+            <li>Work</li>
+            <li>Projects</li>
+        </ul>
+    </nav>
+    <div class="container body-content">
+        <div class='workexp-desc'>
+            <h2 class='site-subheading'>Co-op</h2>
+        </div>
+        <label class='workexp-indochino timeline-content' for='indochino'>
+            <p class='workexp-date timeline-date-right'>2013 &mdash; May to August</p>
+            <p class='workexp-location'>Vancouver, BC</p>
+            <h2 class='workexp-company-name'>Indochino</h2>
+            <p class='workexp-job-title'>Front End Engineer</p>
+            <p class='workexp-desc'>
+            I was given an immense amount of independence. Working in a 2-person frontend team was a huge responsibility and a huge thrill - my first pull request affected global navigation across the whole site platform, and it was incredible to see results of my work in A/B tests and analytics.
+
+            I also had the valuable opportunity of working with a team of designers and going end-to-end with a product: speccing it out, prototyping, final implementation, design tweaks and launch.
+
+            Memorable tasks: Essentials, Modern Dandy, Homepage updates, Category page, Articles
+            </p>
+            <div class='timeline-divider'></div>
+            <input class='timeline-content-input' type='radio' name='workexp' id='indochino'/>
+        </label>
+        <label class='workexp-bv timeline-content' for='bazaarvoice'>
+            <p class='workexp-date timeline-date-left'>2012 &mdash; September to December</p>
+            <p>Austin, Texas</p>
+            <h2 class='workexp-company-name'>BazaarVoice</h2>
+            <p class='workexp-job-title'>Software Engineer</p>
+            <p class='workexp-desc'>
+            Working at Bazaarvoice opened my eyes to the open source community. It was both a lesson in development and lifestyle: it was the first time I was living in the States. I also worked along JS community leaders/experts and learnt from them which was goodstuffz.
+
+            Learnt a lot about good practices: Firebird put a lot of emphasis on things like : configurability, page load performance, query performance, small payload size, etc.
+            </p>
+            <div class='timeline-divider'></div>
+            <input class='timeline-content-input' type='radio' name='workexp' id='bazaarvoice'/>
+        </label>
+        <label class='workexp-watrhub timeline-content' for='watrhub'>
+            <p class='workexp-date timeline-date-right'>2012 &mdash; January to April</p>
+            <p>Toronto, ON</p>
+            <h2 class='workexp-company-name'>WatrHub</h2>
+            <p class='workexp-job-title'>Designer and Developer</p>
+            <p class='workexp-desc'>
+            Working at a 5-person startup and being a key player (only frontend developer and designer) really inspired me. Despite the constant crunchtimes, I was super dedicated to my work because of the inspiring payoff it led to. Inspired me to really drill down into frontend - learn how to write better code, learn how to improve. Self-taught a lot of good practices too. Google was my best friend. Loved the small team and tightly knit group and big responsibilities.
+            </p>
+            <div class='timeline-divider'></div>
+            <input class='timeline-content-input' type='radio' name='workexp' id='watrhub'/>
+        </label>
+    </div>
+    <footer class='site-footer container'>
+        <hr/>
+        &copy; Xenia Tay 2013
+    </footer>
+
+
 <?php get_header(); ?>
 
 			<div id="content">
