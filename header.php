@@ -30,6 +30,7 @@
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
+	    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
@@ -41,22 +42,37 @@
 
 	<body <?php body_class(); ?>>
 
-		<div id="container">
+	    <header class='site-header'>
+	        <div class='site-header-content container'>
+	            <div class='pull-left'>
+	                <h1 class='site-title'>
+						<a href="<?php echo home_url(); ?>" rel="nofollow">Xenia Tay</a>
+					</h1>
+	                <h2 class='site-subheading'>Design and Development</h2>
+	                <h3 class='site-desc'>Computer Science, University of Waterloo</h3>
+	            </div>
+	            <div class='social pull-right'>
+	                <ul class='social-links'>
+	                    <li>
+	                        <a href='http://www.github.com/xeniatay' title='Github' class='social-github'>Github</a>
+	                    </li>
+	                    <li>
+	                        <a href='http://www.twitter.com/xeniatay' title='Twitter' class='social-twitter'>Twitter</a>
+	                    </li>
+	                    <li>
+	                        <a href='http://www.linkedin.com/xeniatay' title='LinkedIn' class='social-linkedin'>LinkedIn</a>
+	                    </li>
+	                    <li>
+	                        <a href='' title='Github' class='social-email'>Email</a>
+	                    </li>
+	                </ul>
+	            </div>
+	        </div>
+	    </header>
 
-			<header class="header" role="banner">
-
-				<div id="inner-header" class="wrap clearfix">
-
-					<!-- to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> -->
-					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
-
-					<!-- if you'd like to use the site description you can un-comment it below -->
-					<?php // bloginfo('description'); ?>
-
-					<nav role="navigation">
-						<?php bones_main_nav(); ?>
-					</nav>
-
-				</div> <!-- end #inner-header -->
-
-			</header> <!-- end header -->
+	    <nav class='site-nav'>
+	        <ul class='nostyle container'>
+	            <li>Work</li>
+	            <li>Projects</li>
+	        </ul>
+	    </nav>
