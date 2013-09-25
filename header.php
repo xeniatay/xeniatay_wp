@@ -36,11 +36,13 @@
 		<!-- end of wordpress head -->
 
 		<!-- drop Google Analytics Here -->
+		<script>
 		(function() {
 			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
+		</script>
 		<!-- end analytics -->
 
 	</head>
@@ -49,7 +51,7 @@
 
 	    <header class='site-header'>
 	        <div class='site-header-content container'>
-	            <div class='pull-left'>
+	            <div class='site-header-left'>
 	                <h1 class='site-title'>
 						<a href="<?php echo home_url(); ?>" rel="nofollow">Xenia Tay</a>
 					</h1>
