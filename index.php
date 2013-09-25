@@ -19,7 +19,7 @@
 	            <p class='workexp-location'>Montreal, Quebec</p>
             </div>
             <h2 class='workexp-company-name'>
-	            CUSEC 2014
+	            <a href='http://2014.cusec.net' title='CUSEC 2014'>CUSEC 2014</a>
             </h2>
             <p class='workexp-job-desc'>
 	            Currently volunteering as webmaster and designer for
