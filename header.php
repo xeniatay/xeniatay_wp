@@ -60,19 +60,12 @@
 	                        <a href='http://www.twitter.com/xeniatay' title='Twitter' class='social-twitter'>Twitter</a>
 	                    </li>
 	                    <li>
-	                        <a href='http://www.linkedin.com/xeniatay' title='LinkedIn' class='social-linkedin'>LinkedIn</a>
+	                        <a href='http://ca.linkedin.com/in/xeniatay/' title='LinkedIn' class='social-linkedin'>LinkedIn</a>
 	                    </li>
 	                    <li>
-	                        <a href='' title='Github' class='social-email'>Email</a>
+	                        <a href='http://xeniatay.com/Xenia_Tay_Resume.pdf' title='Resume' class='social-resume'>Resume</a>
 	                    </li>
 	                </ul>
 	            </div>
 	        </div>
 	    </header>
-
-	    <nav class='site-nav'>
-	        <ul class='nostyle container'>
-	            <li>Work</li>
-	            <li>Projects</li>
-	        </ul>
-	    </nav>

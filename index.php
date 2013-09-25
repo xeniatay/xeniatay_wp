@@ -1,9 +1,18 @@
 <?php get_header(); ?>
 
     <div class="container body-content tl-container">
-        <div class='workexp-desc'>
-            <h2 class='site-subheading'>Co-op</h2>
-        </div>
+        <p class='personal-desc'>
+        I major in Computer Science at the University of Waterloo, and I am working towards a minor in Fine Arts (Studio).
+        </p>
+        <ul class='tl-legend'>
+        	<li class='tl-legend-item'>
+		        <div class='tl-legend-swatch tl-swatch-paid'></div>
+		        <span>Co-op / Freelance</span>
+        	</li><li class='tl-legend-item'>
+		        <div class='tl-legend-swatch tl-swatch-unpaid'></div>
+		        <span>Personal Project / Volunteer Work</span>
+	        </li>
+        </ul>
         <label class='workexp-cusec tl-content-left' for='cusec'>
             <div class='workexp-date-loc tl-date-loc'>
 	            <p>2013 &mdash; August to Present</p>
@@ -13,7 +22,9 @@
 	            CUSEC 2014
             </h2>
             <p class='workexp-job-desc'>
-	            Currently volunteering as webmaster and designer for the annual Canadian University Software Engineering Conference in 2014
+	            Currently volunteering as webmaster and designer for
+	            <br/>the annual Canadian University Software
+	            <br/>Engineering Conference.
             </p>
             <div class='tl-divider'></div>
             <input class='tl-content-input' type='radio' name='workexp' id='cusec'/>
@@ -26,7 +37,8 @@
             <h2 class='workexp-company-name'>Indochino</h2>
             <p class='workexp-job-desc'>
             	Co-op &mdash;
-	            Worked as a Front End Engineer on a two-person team, maintaining and building new features for the entire Indochino e-commerce platform
+	            Worked as a Front End Engineer on a
+	            <br/>two-person team, maintaining and building new features for the entire Indochino e-commerce platform
             </p>
             <!-- <p class='workexp-desc'> I was given an immense amount of independence. Working in a 2-person frontend team was a huge responsibility and a huge thrill - my first pull request affected global navigation across the whole site platform, and it was incredible to see results of my work in A/B tests and analytics. I also had the valuable opportunity of working with a team of designers and going end-to-end with a product: speccing it out, prototyping, final implementation, design tweaks and launch. Memorable tasks: Essentials, Modern Dandy, Homepage update-locs, Category page, Articles </p> -->
             <div class='tl-divider'></div>
@@ -41,8 +53,8 @@
             	Math Orientation 2013
             </h2>
             <p class='workexp-job-desc'>
-            	Volunteered as Web Coordinator and implemented a fresh site with feature iterations throughout the year.
-            	<br/>I was also a Head Pink Tie (head frontline leader) <br/>during Orientation Week itself.
+            	Volunteered as Web Coordinator and implemented the 2013 site. I also took on the role of Head Pink Tie
+            	<br/>(head frontline leader) during Orientation Week.
             </p>
             <div class='tl-divider'></div>
             <input class='tl-content-input' type='radio' name='workexp' id='mathorient'/>
@@ -56,7 +68,9 @@
 	            Unhold
             </h2>
             <p class='workexp-job-desc'>
-            	Handled front end design and development for a webapp service aimed to relieve the frustration of being stuck on hold in a phone call.
+            	Handled front end design and development for a
+            	<br/>webapp service aimed to relieve the frustration
+            	<br/>of being stuck on hold in a phone call.
             </p>
             <div class='tl-divider'></div>
             <input class='tl-content-input' type='radio' name='workexp' id='unhold'/>
@@ -78,7 +92,7 @@
             <div class='tl-divider'></div>
             <input class='tl-content-input' type='radio' name='workexp' id='bazaarvoice'/>
         </label>
-        <label class='workexp-hvz tl-content-right' for='hvz'>
+        <label class='workexp-mathnews tl-content-right' for='mathnews'>
             <div class='workexp-date-loc tl-date-loc'>
 	            <p>2012 &mdash; July</p>
 	            <p class='workexp-location'>
@@ -93,7 +107,7 @@
 	            <br/>game &mdash; starring me as the main character.
             </p>
             <div class='tl-divider'></div>
-            <input class='tl-content-input' type='radio' name='workexp' id='unhold'/>
+            <input class='tl-content-input' type='radio' name='workexp' id='mathnews'/>
         </label>
         <label class='workexp-velocity tl-content-left' for='velocity'>
              <div class='workexp-date-loc tl-date-loc'>
@@ -127,9 +141,4 @@
             <input class='tl-content-input' type='radio' name='workexp' id='watrhub'/>
         </label>
     </div>
-    <footer class='site-footer container'>
-        <hr/>
-        &copy; Xenia Tay 2013
-    </footer>
-
 <?php get_footer(); ?>
