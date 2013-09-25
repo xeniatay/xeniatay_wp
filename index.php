@@ -18,13 +18,12 @@
 	            <p>2013 &mdash; August to Present</p>
 	            <p class='workexp-location'>Montreal, Quebec</p>
             </div>
-            <h2 class='workexp-company-name'>
-	            <a href='http://2014.cusec.net' title='CUSEC 2014'>CUSEC 2014</a>
-            </h2>
+            <h2 class='workexp-company-name'>CUSEC 2014</h2>
             <p class='workexp-job-desc'>
 	            Currently volunteering as webmaster and designer for
 	            <br/>the annual Canadian University Software
 	            <br/>Engineering Conference.
+	            <a class='workexp-sample-link' href='http://2014.cusec.net' title='CUSEC 2014'>2014.cusec.net</a>
             </p>
             <div class='tl-divider'></div>
             <input class='tl-content-input' type='radio' name='workexp' id='cusec'/>
@@ -39,6 +38,7 @@
             	Co-op &mdash;
 	            Worked as a Front End Engineer on a
 	            <br/>two-person team, maintaining and building new features for the entire Indochino e-commerce platform
+	            <a class='workexp-sample-link' href='http://bit.ly/indoMDC' title='Indochino Modern Dandy Collection'>Sample: Indochino's Modern Dandy Collection</a>
             </p>
             <!-- <p class='workexp-desc'> I was given an immense amount of independence. Working in a 2-person frontend team was a huge responsibility and a huge thrill - my first pull request affected global navigation across the whole site platform, and it was incredible to see results of my work in A/B tests and analytics. I also had the valuable opportunity of working with a team of designers and going end-to-end with a product: speccing it out, prototyping, final implementation, design tweaks and launch. Memorable tasks: Essentials, Modern Dandy, Homepage update-locs, Category page, Articles </p> -->
             <div class='tl-divider'></div>
@@ -55,6 +55,7 @@
             <p class='workexp-job-desc'>
             	Volunteered as Web Coordinator and implemented the 2013 site. I also took on the role of Head Pink Tie
             	<br/>(head frontline leader) during Orientation Week.
+	            <a class='workexp-sample-link' href='http://orientation.math.uwaterloo.ca' title='Math Orientation Website'>orientation.math.uwaterloo.ca</a>
             </p>
             <div class='tl-divider'></div>
             <input class='tl-content-input' type='radio' name='workexp' id='mathorient'/>
@@ -71,6 +72,7 @@
             	Handled front end design and development for a
             	<br/>webapp service aimed to relieve the frustration
             	<br/>of being stuck on hold in a phone call.
+	            <a class='workexp-sample-link' href='http://unhold.me' title='Unhold'>unhold.me</a>
             </p>
             <div class='tl-divider'></div>
             <input class='tl-content-input' type='radio' name='workexp' id='unhold'/>
@@ -87,6 +89,7 @@
             	<br/>Conversations 2.0, as part of the team in charge
             	<br/>of rewriting Bazaarvoice's rating and review
             	<br/>system from the ground up.
+	            <a class='workexp-sample-link' href='http://bit.ly/BVsample' title='Bazaarvoice Example Review'>Live Ratings/Reviews Example</a>
             </p>
             <!-- <p class='workexp-desc'> Working at Bazaarvoice opened my eyes to the open source community. It was both a lesson in development and lifestyle: it was the first time I was living in the States. I also worked along JS community leaders/experts and learnt from them which was goodstuffz. Learnt a lot about good practices: Firebird put a lot of emphasis on things like : configurability, page load performance, query performance, small payload size, etc. </p> -->
             <div class='tl-divider'></div>
@@ -100,11 +103,12 @@
 	            </p>
             </div>
             <h2 class='workexp-company-name'>
-            	A Comic in <span class='mn-math'>math</span><span class='mn-news'>NEWS</span>
+	            	A Comic in <span class='mn-math'>math</span><span class='mn-news'>NEWS</span>
             </h2>
             <p class='workexp-job-desc'>
 	            Inspired by a campus-wide game of Humans VS Zombies, I drew a comic about the dramatic events during the
 	            <br/>game &mdash; starring me as the main character.
+		    	<a class='workexp-sample-link' href='http://xeniatay.com/media/hvz1.jpg' title='mathNEWS comic'>Read the Comic</a>
             </p>
             <div class='tl-divider'></div>
             <input class='tl-content-input' type='radio' name='workexp' id='mathnews'/>
@@ -121,6 +125,7 @@
             </h2>
             <p class='workexp-job-desc'>
             	Revamped VeloCity's website, resulting in a dramatic rise in site visits from 12,000 to 30,000 per month.
+	            <a class='workexp-sample-link' href='http://velocity.uwaterloo.ca' title='VeloCity Website'>velocity.uwaterloo.ca</a>
             </p>
             <div class='tl-divider'></div>
             <input class='tl-content-input' type='radio' name='workexp' id='velocity'/>
